@@ -4,18 +4,18 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Table of contents
 
-- [Process]I simply created a div container and put another div with the class card inside it and more another child elements inside the card.
+- [Process] I simply created a div container and put another div with the class card inside it and more another child elements inside the card.
 - [Built with] (This challange was completed with the use of HTML and Css only.)
 - [Author] Mohit
 
 ### Screenshot
 
-![./solution/solution_QRcodeComponent.png]
+https://github.com/its-anonymouse/FrontEndMentor_Challange--QR_Code_Component-/blob/main/solution_QRcodeComponent.png
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [https://github.com/its-anonymouse/FrontEndMentor_Challange--QR_Code_Component-]
+- Live Site URL: [https://its-anonymouse.github.io/FrontEndMentor_Challange--QR_Code_Component-/]
 
 ### Built with
 
