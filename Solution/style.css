@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+    --p-size:15px;
+}
+.container{
+    height: 100vh;
+    width: 375px;
+    background-color: var(--Light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 480px;
+    width: 310px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 18px;
+}
+#QRimage{
+    margin: 15px 0 0 0;
+    width: 90%;
+    border-radius: 10px;
+}
+p{
+    width: 85%;
+    font-size: var(--p-size);
+    text-align: center;
+}
+#boldP{
+    color: var(--Dark-blue);
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 0;
+}
+#normalP{
+    font-weight: 400;
+    color: gray;
+    margin: 0 0 30px 0;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+/* If screen goes over 375px */
+@media only screen and (min-width: 376px) {
+    body,
+    .container
+    {
+        width:100vw;
+    }
+}
+/* When screen reaches 1440px */
+@media only screen and (min-width: 1440px) {
+    body,
+    .container
+    {
+        width:1440px;
+    }
+}
+/* Ignore */
+@media only screen and (max-width: 300px) {
+    body,
+    .container
+    {
+        width:300px;
+    }
+    .card{
+        scale: 0.7;
+    }
+}
